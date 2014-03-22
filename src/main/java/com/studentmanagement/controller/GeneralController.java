@@ -17,7 +17,8 @@ public class GeneralController {
 	@RequestMapping(value="/",method= RequestMethod.GET)
 	public String teacherlogin(ModelMap model)
 	{
-		model.addAttribute("page","somedata");
+		String asd=dataSource.toString();
+		model.addAttribute("page",asd);
 		return "homepage";
 	}
 	@RequestMapping(value="/loginfailed",method= RequestMethod.GET)
