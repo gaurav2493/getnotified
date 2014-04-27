@@ -10,6 +10,7 @@
 		<maven.compiler.target>1.6</maven.compiler.target>
 		<tomcat.dbcp.version>7.0.27</tomcat.dbcp.version>
 	</properties>
+i am adding this new line of text
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.derby</groupId>
